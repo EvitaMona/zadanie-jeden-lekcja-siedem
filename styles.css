@@ -1,0 +1,32 @@
+.box {
+  width: 94%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: yellow;
+}
+
+.action-button {
+  width: 100%;
+  background-color: #24ad98;
+  color: white;
+  font-weight: 700;
+  padding: 20px 40px;
+}
+
+@media (hover: hover) {
+  .action-button:hover {
+    background-color: white;
+    color: #24ad98;
+  }
+}
+
+@media (min-width: 769px) {
+  .box {
+    width: 645px;
+    background-color: aqua;
+  }
+
+  .action-button {
+    width: auto;
+  }
+}
